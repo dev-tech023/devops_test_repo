@@ -1,0 +1,13 @@
+git init ->  git initialization 
+git add file_name -> stage file.
+git commit -m "promt" -> to track file.
+git rm --cache file_name -> to unstage file.
+git restore file_name -> to restore deleted file.
+git config --global user.name "your_name" -> to make auther and track author record.
+git config --global user.email "your_email" -> same as above.
+git status -> to see status.
+git push -> push local repo to remote server.
+git remote add origin "remote_repo_url" -> to add remote repo to local.
+git remote -v -> to check remote repo added or not.
+git remote set-url origin pat_key -> to set uthentication for link the local and remote 
+
