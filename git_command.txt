@@ -11,3 +11,4 @@ git remote -v -> to check remote repo added or not.
 git remote set-url origin pat_key -> to set authentication for link the local and remote 
 git push origin master -> to push local stuff to remote.
 
+this is chage done on git repo 
