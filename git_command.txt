@@ -11,5 +11,11 @@ git remote -v -> to check remote repo added or not.
 git remote set-url origin pat_key -> to set authentication for link the local and remote 
 git push origin master -> to push local stuff to remote.
 git pull origin master -> to pull remote repo changes to local.
-this is chage done on git repo 
- 
+
+git branch -> on which branch user in and how many branches are present in current local repo.
+git checkout -B branch_name -> creates new branch and switch onto that branch.
+git branch branch_name -> create new branch
+git switch branch_name -> to switch into specific branch. (git switch and checkout almost same) 
+git log -> how many commits are done by whom and when. (head represent the latest commit of your repo)
+git log --oneline -> logs shows in oneline.
+
