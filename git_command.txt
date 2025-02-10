@@ -11,6 +11,7 @@ git remote -v -> to check remote repo added or not.
 git remote set-url origin pat_key -> to set authentication for link the local and remote 
 git push origin master -> to push local stuff to remote.
 git pull origin master -> to pull remote repo changes to local.
+-----------------------------------------------------------------------------------------------------------------------------
 
 git branch -> on which branch user in and how many branches are present in current local repo.
 git checkout -B branch_name -> creates new branch and switch onto that branch.
@@ -18,4 +19,25 @@ git branch branch_name -> create new branch
 git switch branch_name -> to switch into specific branch. (git switch and checkout almost same) 
 git log -> how many commits are done by whom and when. (head represent the latest commit of your repo)
 git log --oneline -> logs shows in oneline.
+---------------------------------------------------------------------------------------------------------------------------
+
+To copy a file from one branch to another branch.
+
+step one: Switch to the branch where you want to place the file after copying.
+command : git switch branch_name or git checkout branch_name.
+
+step two: copy the file from the branch where you want to copy.
+command : git checkout branch_name path/to/file or git restore --source branch_name -- path/to/file
+
+step three: stage the file.
+command : git add path/to/file
+
+step four: commit the file
+command: git commit -m "massege"
+
+step file(optional): puch changes.
+command : git push origin branch_name.
+
+
+
 
